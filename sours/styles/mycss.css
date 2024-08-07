@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto Slab&display=swap');
+body{
+    font-family: Roboto Slab,serif;
+    background: linear-gradient(56563deg, #118109 10%, #d3ffb8 100%);
+}
+
+p{
+    color: #042504;
+}
+.nav-link{
+    color: darkgreen;
+}
+
+.navbar-nav .nav-link.active{
+    color: darkgreen;
+}
+
+.navbar-brand img{
+   width: 40px;
+}
+
+.navbar-toggler{
+    background-color: darkgreen;
+    color: rgb(57, 141, 57);
+}
+
+.card {
+    box-shadow: 0px 1px 32px 7px #156f17;
+    color: rgb(5, 56, 5);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.card-img-top {
+    width: 100%;
+    height: 100%; /* або інша бажана висота */
+    object-fit: cover;
+}
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+.card a{
+    text-decoration: none;
+     color: rgb(5, 56, 5);
+}
+
+.card-text {
+    flex-grow: 1;
+
+}
+.btn-primary {
+    margin-top: auto;
+    width: 50%;  /* Ширина кнопки - половина від ширини контейнера */
+    align-self: flex-start;
+}
+
+
+.sidebar{
+    color: #042504;
+    background: linear-gradient(56563deg, #16880e 10%, #a2dd7d 100%);
+    box-shadow: 0px 1px 32px 7px #156f17;
+    
+}
+.carousel-item .col-lg-6 {
+    aspect-ratio: 16 / 9; /* або будь-яке інше співвідношення */
+    overflow: hidden;
+}
+
+.carousel-item .col-lg-6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slide-text {
+    color: #042504;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.btn-outline-success{
+    color: #118109;
+    background: linear-gradient(56563deg, #16880e 10%, #a2dd7d 100%); 
+
+}
+footer{
+    background: linear-gradient(56563deg, #16880e 10%, #a2dd7d 100%); 
+    
+    
+}
+.media-links
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:755px){
+  .carousel-indicators{
+    display: none;
+  }  
+}
+
+.call-anim{
+    animation: myAnim 4s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+
+.text-down  {
+    text-decoration: none;
+    color: #042504;
+}
+.footer-text{
+    color: #042504;
+    margin: auto auto;
+}
+
